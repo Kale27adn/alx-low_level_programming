@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /**
- * Main - Entry
+ * Main - Alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
@@ -10,12 +10,13 @@
 int main(void)
 
 {
-	int  (ch = 'a');
+	int ch = 'a';
 
 	while (ch <= 'z')
 	{
-		putchar(ch "\n");
+		putchar(ch);
 		ch++;
 	}
+	putchar("\n");
 	return (0);
 }
