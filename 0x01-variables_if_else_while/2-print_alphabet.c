@@ -3,7 +3,8 @@
 
 /**
  * Main - Alphabet
- * Description: Alphabet in lowercase
+ * Description: prints the alphabet in lowercas 'a-z'
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
