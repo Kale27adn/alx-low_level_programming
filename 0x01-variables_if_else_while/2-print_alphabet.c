@@ -1,14 +1,12 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * Main - Alphabet in lowercase
- *
+ * Main - Alphabet
+ * Description: Alphabet in lowercase
  * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
 	int ch = 'a';
 
@@ -17,6 +15,6 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar("\n");
-	return (0);
+		putchar('\n');
+		return (0);
 }
