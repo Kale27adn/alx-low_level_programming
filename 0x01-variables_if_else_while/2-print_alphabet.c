@@ -2,20 +2,21 @@
 #include <stdlib.h>
 
 /**
- * Main - Alphabet
+ * main- Entry point
+ *
  * Description: prints the alphabet in lowercas 'a-z'
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch = 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }

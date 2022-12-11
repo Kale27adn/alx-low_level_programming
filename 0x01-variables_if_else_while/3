@@ -1,23 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - Entry point
+ * Main - Alphabet
  *
- * Description: Alphabet in lowercase and uppercase
+ * Description: prints the alphabet in lowercas 'a-z'
  *
- * Return: Alawys 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
+
 {
 	int ch = 'a';
-
 	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	ch = 'A';
-	while (ch <= 'Z')
 	{
 		putchar(ch);
 		ch++;

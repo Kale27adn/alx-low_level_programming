@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Main - Entry
+ * main - Entry
  * Description: prints single number
  *
  * Return: 0
@@ -13,7 +13,7 @@ int main(void)
 	while (num <= '9')
 	{
 		putchar(num);
-		if (num !=9)
+		if (num != 9)
 		{
 			putchar(',');
 			putchar(' ');

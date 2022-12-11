@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Main - single digit numbers
+ * main - single digit numbers
  *
  * Return: Always 0
  */

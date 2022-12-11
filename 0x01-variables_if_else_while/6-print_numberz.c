@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Main - single digit number
+ * main - single digit number
  * Description: prints all single digit numbers of base 10 starting from 0
  *
  * Return: 0

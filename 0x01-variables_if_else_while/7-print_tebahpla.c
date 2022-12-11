@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Main - Entry
+ * main - Entry
  * Description: Alphabet in lowercase
  *
  * Return: 0

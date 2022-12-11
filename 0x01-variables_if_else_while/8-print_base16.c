@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Main - Entey
+ * main - Entey
  * Description: Alphabet in lowercase
  *
  * Retrun: 0
