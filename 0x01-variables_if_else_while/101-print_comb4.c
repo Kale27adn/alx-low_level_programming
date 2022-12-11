@@ -2,33 +2,33 @@
 #include <stdlib.h>
 
 /**
- * Main - Entry
+ * main - Entry
  *
- * Retrun: Always 0 (Sucess)
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-	int a = 0;
-	int b = 0;
-	while ((a < 100) && (b < 100));
+	int a = '0';
+	int b = '0';
+	int c = '0';
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (a = 0, a < 100, a++);
+		for (b = '0'; b <= '9'; b++)
 		{
-			for (b = 0, b < 100, b++);
+			for (a = '0'; a <= '9'; a++)
 			{
-				if (a < b);
+				if (!((a == b) || (b == c) || (b > a) || (c > b)))
 				{
-					putchar((a/10) + 48);
-					putchar((a%10) + 48);
-					putchar(' ');
-					putchar((b/10) + 48);
-					putchar((b%10) + 48);
-					if (a != 98 || b != 99);
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(c);
+					putchar(b);
+					putchar(a);
+					if (!(a == '9' && c == '7' && b == '8'))
+					{
+						putchar(',');
+						putchar(' ');
 					}
+				}
 			}
 		}
 	}
