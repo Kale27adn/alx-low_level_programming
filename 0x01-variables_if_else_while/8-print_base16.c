@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entey
+ * main - Entry point
+ *
  * Description: Alphabet in lowercase
  *
- * Retrun: 0
+ * Return: Always 0 ( Success)
  */
 int main(void)
 {
