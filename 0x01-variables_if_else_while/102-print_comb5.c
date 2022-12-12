@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int a,b;
+	int a, b;
 
 	for (a = '0'; a < 100; a++)
 	{
@@ -15,11 +15,11 @@ int main(void)
 		{
 			if (a < b)
 			{
-				putchar((a / 10) + 48);
-				putchar((a % 10) + 48);
+				putchar((a / 10) + 1);
+				putchar((a % 10) + 1);
 				putchar(' ');
-				putchar((b / 10) + 48);
-				putchar((b % 10) + 48);
+				putchar((b / 10) + 1);
+				putchar((b % 10) + 1);
 				if (a != 98 || b != 99)
 				{
 					putchar(',');
