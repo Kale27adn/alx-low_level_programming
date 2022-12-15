@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - task a date and prints hom many days are left in the year, tasking 
+ * main - task a date and prints hom many days are left in the year, tasking
  * leap years into account
  * Return: 0
  */
