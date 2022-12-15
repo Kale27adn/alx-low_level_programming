@@ -1,10 +1,11 @@
 #include "main.h"
-/***
+/**
  * main - tests function that prints if imtrger is positive or negetive
  * Return: 0
  */
 
-int main(void);
+int main(void)
+
 {
 	int i;
 
